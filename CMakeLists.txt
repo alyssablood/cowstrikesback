@@ -3,4 +3,4 @@ project(cowstrikesback)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(cowstrikesback main.cpp)
+add_executable(cowstrikesback cowsay.cpp)
