@@ -6,13 +6,13 @@
 #define ICEDRAGON_H
 #include <string>
 
-#include "Dragon.h""
+#include "Dragon.h"
 
 class IceDragon : public Dragon {
   public:
     IceDragon(const std::string& _name, const std::string& _image);
-    //maybe add overide at end
-    bool canBreatheFire();
+
+    bool canBreatheFire() override;
 };
 
 #endif //ICEDRAGON_H

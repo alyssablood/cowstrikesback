@@ -11,18 +11,20 @@
 class Cow {
 
   private:
-        static std::string& _name;
-        static std::string& _image;
+    std::string _name;
+    std::string& _image;
 
-    public:
+  public:
       //constuctor
-      Cow(const std::string& _name);
+    explicit Cow(const std::string& _name);
 
-      std::string& getName();
+    virtual ~Cow();
 
-      std::string& getImage();
+    std::string& getName();
+    std::string& getImage();
 
-      virtual void setImage(const std::string& _image);
+
+    virtual void setImage(const std::string& _image);
 
 };
 

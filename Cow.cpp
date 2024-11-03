@@ -6,9 +6,14 @@
 
 
     Cow::Cow(const std::string& _name)
-    {
-          this->_name = _name;
-    }
+{
+    this->_name = _name;
+    this->_image = "";
+}
+
+
+
+    Cow::~Cow() = default;
 
     std::string& Cow::getName()
     {
@@ -20,7 +25,7 @@
       return _image;
     }
 
-    void Cow::setImage(const std::string& _image)
+    void Cow::setImage(const std::string& image)
     {
-      this->_image = _image;
+      _image = image;
     }

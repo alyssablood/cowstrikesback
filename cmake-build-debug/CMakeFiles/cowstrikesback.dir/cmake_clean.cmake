@@ -1,4 +1,12 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/cowstrikesback.dir/Cow.cpp.obj"
+  "CMakeFiles/cowstrikesback.dir/Cow.cpp.obj.d"
+  "CMakeFiles/cowstrikesback.dir/Dragon.cpp.obj"
+  "CMakeFiles/cowstrikesback.dir/Dragon.cpp.obj.d"
+  "CMakeFiles/cowstrikesback.dir/HeiferGenerator.cpp.obj"
+  "CMakeFiles/cowstrikesback.dir/HeiferGenerator.cpp.obj.d"
+  "CMakeFiles/cowstrikesback.dir/IceDragon.cpp.obj"
+  "CMakeFiles/cowstrikesback.dir/IceDragon.cpp.obj.d"
   "CMakeFiles/cowstrikesback.dir/cowsay.cpp.obj"
   "CMakeFiles/cowstrikesback.dir/cowsay.cpp.obj.d"
   "cowstrikesback.exe"
