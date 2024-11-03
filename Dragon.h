@@ -12,7 +12,7 @@ class Dragon : public Cow {
   public:
     Dragon(const std::string& _name, const std::string& _image);
     //mayba add vitual
-    bool canBreatheFire();
+    virtual bool canBreatheFire();
 
 };
 

@@ -9,7 +9,7 @@ Dragon :: Dragon(const std::string& _name, const std::string& _image) : Cow(_nam
   this->setImage(_image);
 }
 
-bool Dragon :: canBreathFire()
+bool Dragon :: canBreatheFire()
 {
   return true;
 }
