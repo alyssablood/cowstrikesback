@@ -1,5 +1,5 @@
 //
-// Created by alyss on 11/1/2024.
+// My partner is Allyssa Blood
 //
 
 #include <iostream>
@@ -16,12 +16,15 @@ int main(int argc, char* argv[])
 {
     //creates list of cows
     const std::vector<Cow*> cows = HeiferGenerator::getCows();
-
-    //specified cows
-    if (std::string(argv[1]) == "-n")
+    //checks for more than argument for first test case
+    if (argc > 1)
     {
+        //custom cows outputs
+        if (std::string(argv[1]) == "-n")
+    {
+        //create message
         std::string message;
-        for (int i = 2; i < argc; ++i)
+        for (int i = 3; i < argc; ++i)
         {
             message += argv[i];
             if (i < argc - 1)
@@ -29,27 +32,33 @@ int main(int argc, char* argv[])
                 message += " ";
             }
         }
+        //custom output for each cow
         if (std::string(argv[2]) == "heifer")
         {
-            std::cout << message << std::endl;
+
+            std::cout << "\n" << message << std::endl;
             std::cout << cows[0]->getImage() << std::endl;
         }
         else if (std::string(argv[2]) == "kitteh")
         {
-            std::cout << message << std::endl;
+            std::cout << "\n" << message << std::endl;
             std::cout << cows[1]->getImage() << std::endl;
         }
         else if (std::string(argv[2]) == "dragon")
         {
-            std::cout << message << std::endl;
+            std::cout << "\n" << message << std::endl;
             std::cout << cows[2]->getImage() << std::endl;
-            std::cout << "This dragon can breathe fire." << std::endl;
+            std::cout << "This dragon can breathe fire.\n" << std::endl;
         }
-        if (std::string(argv[2]) == "ice-dragon")
+        else if (std::string(argv[2]) == "ice-dragon")
         {
-            std::cout << message << std::endl;
+            std::cout << "\n" << message << std::endl;
             std::cout << cows[3]->getImage() << std::endl;
-            std::cout << "This dragon cannot breathe fire." << std::endl;
+            std::cout << "This dragon cannot breathe fire.\n" << std::endl;
+        }
+        else
+        {
+            std::cout << "Could not find "<< argv[2] << " cow!\n" << std::endl;
         }
     }
     //to list available cows
@@ -58,12 +67,20 @@ int main(int argc, char* argv[])
         std::cout << "Cows available: ";
         for (const auto& cow : cows)
         {
-            std::cout << cow->getName() << " ";
+            if(cow->getName() == "ice-dragon")
+            {
+                std::cout << cow->getName();
+            }
+            else
+            {
+                std::cout << cow->getName() << " ";
+            }
         }
-        std::cout << std::endl;
+        std::cout << "\n" << std::endl;
     }
     else
     {
+        //for default cow message
         if (argc > 1)
         {
             std::string message;
@@ -74,11 +91,13 @@ int main(int argc, char* argv[])
                     message += " ";
                 }
             }
-            std::cout << message << std::endl;
+            std::cout << "\n" << message << std::endl;
             std::cout << cows[0]->getImage() << std::endl;
 
         }
     }
+    }
+
 
     //to prevent memory leaks
     for (auto& cow : cows) {

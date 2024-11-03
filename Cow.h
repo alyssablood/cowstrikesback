@@ -11,15 +11,17 @@
 class Cow {
 
   private:
+    //variables
     std::string _name;
-    std::string& _image;
+    std::string _image;
 
   public:
       //constuctor
     explicit Cow(const std::string& _name);
-
+    //deconstructor
     virtual ~Cow();
 
+    //getters and setters
     std::string& getName();
     std::string& getImage();
 

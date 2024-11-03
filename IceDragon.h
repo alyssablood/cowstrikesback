@@ -10,8 +10,10 @@
 
 class IceDragon : public Dragon {
   public:
+    //constructor
     IceDragon(const std::string& _name, const std::string& _image);
 
+    //needs override to work properly
     bool canBreatheFire() override;
 };
 

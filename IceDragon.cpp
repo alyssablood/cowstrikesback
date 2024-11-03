@@ -9,6 +9,7 @@ IceDragon :: IceDragon(const std::string& _name, const std::string& _image) : Dr
 {
   //nothing
 }
+
 //setting canBreatheFire to false
 bool IceDragon :: canBreatheFire()
 {

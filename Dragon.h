@@ -8,10 +8,12 @@
 
 #include "Cow.h"
 
+
 class Dragon : public Cow {
   public:
+    //contructor
     Dragon(const std::string& _name, const std::string& _image);
-    //mayba add vitual
+    //needs to virtual
     virtual bool canBreatheFire();
 
 };
