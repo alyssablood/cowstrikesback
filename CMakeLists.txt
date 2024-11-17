@@ -5,7 +5,9 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_executable(cowstrikesback cowsay.cpp
         Dragon.h
-        HeiferGenerator.cpp
         IceDragon.cpp
         Cow.cpp
-        Dragon.cpp)
+        Dragon.cpp
+        FileCow.cpp
+        FileCow.h
+)

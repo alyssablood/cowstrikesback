@@ -5,15 +5,18 @@
 #include "Cow.h"
 #include "Dragon.h"
 #include "IceDragon.h"
+#include "FileCow.h"
 
 class HeiferGenerator
 {
 public:
 	static std::vector<Cow*>& getCows();
+	static std::vector<Cow*>& getFileCows();
     static Dragon* getDragonPointer(Cow* cow);
 
 private:
     inline static std::vector<Cow*> cows;
+    inline static std::vector<Cow*> fileCows;
 
 	// Hard-coded values for some of the cows
 	static const int numCows = 2;

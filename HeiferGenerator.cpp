@@ -1,6 +1,21 @@
+#include <filesystem>
 #include <typeinfo>
+
 #include "Cow.h"
 #include "HeiferGenerator.h"
+
+std::vector<Cow*>& HeiferGenerator::getFileCows()
+{
+	if (fileCows.empty())
+	{
+		// Add file cows
+		for (auto &entry : std::filesystem::directory_iterator(std::filesystem::path("cows")))
+			if (entry.path().extension() == ".cow")
+			    fileCows.push_back(new FileCow(entry.path().stem().string(), entry.path().string()));
+	}
+	
+	return fileCows;
+}
 
 std::vector<Cow*>& HeiferGenerator::getCows()
 {

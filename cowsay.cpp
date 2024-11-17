@@ -16,6 +16,8 @@ int main(int argc, char* argv[])
 {
     //creates list of cows
     const std::vector<Cow*> cows = HeiferGenerator::getCows();
+    const std::vector<Cow*> filecows =  HeiferGenerator::getFileCows();
+
     //checks for more than argument for first test case
     if (argc > 1)
     {
@@ -64,7 +66,7 @@ int main(int argc, char* argv[])
     //to list available cows
     else if (argc == 2 && std::string(argv[1]) == "-l")
     {
-        std::cout << "Cows available: ";
+        std::cout << "Regular cows available: ";
         for (const auto& cow : cows)
         {
             if(cow->getName() == "ice-dragon")
@@ -76,7 +78,48 @@ int main(int argc, char* argv[])
                 std::cout << cow->getName() << " ";
             }
         }
+        std::cout << "\nFile cows available: ";
+        for (const auto& filecow : filecows)
+        {
+            if(filecow->getName() == "turtle")
+            {
+                std::cout << filecow->getName();
+            }
+            else
+            {
+                std::cout << filecow->getName() << " ";
+            }
+        }
         std::cout << "\n" << std::endl;
+    }
+    else if (argc >= 4 && std::string(argv[1]) == "-f")
+    {
+        std::string cowName = argv[2];
+        std::string message;
+        for (int i = 3; i < argc; ++i)
+        {
+            message += argv[i];
+            if (i < argc - 1)
+            {
+                message += " ";
+            }
+        }
+        bool found = false;
+        for (const auto& filecow : filecows)
+        {
+            if (filecow->getName() == cowName)
+            {
+                std::cout << "\n" << message << std::endl;
+                std::cout << filecow->getImage() << std::endl;
+                found = true;
+                break;
+            }
+        }
+        if (!found)
+        {
+            std::cout << "Could not find " << cowName << " cow!\n" << std::endl;
+        }
+
     }
     else
     {
@@ -103,6 +146,11 @@ int main(int argc, char* argv[])
     for (auto& cow : cows) {
         delete cow;
     }
+    //to prevent memory leaks
+    for (auto& filecow : filecows) {
+        delete filecow;
+    }
+
 
     return 0;
 }

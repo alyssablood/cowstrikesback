@@ -176,29 +176,29 @@ Dragon.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cowstrikesback.dir\build.make CMakeFiles/cowstrikesback.dir/Dragon.cpp.s
 .PHONY : Dragon.cpp.s
 
-HeiferGenerator.obj: HeiferGenerator.cpp.obj
-.PHONY : HeiferGenerator.obj
+FileCow.obj: FileCow.cpp.obj
+.PHONY : FileCow.obj
 
 # target to build an object file
-HeiferGenerator.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cowstrikesback.dir\build.make CMakeFiles/cowstrikesback.dir/HeiferGenerator.cpp.obj
-.PHONY : HeiferGenerator.cpp.obj
+FileCow.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cowstrikesback.dir\build.make CMakeFiles/cowstrikesback.dir/FileCow.cpp.obj
+.PHONY : FileCow.cpp.obj
 
-HeiferGenerator.i: HeiferGenerator.cpp.i
-.PHONY : HeiferGenerator.i
+FileCow.i: FileCow.cpp.i
+.PHONY : FileCow.i
 
 # target to preprocess a source file
-HeiferGenerator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cowstrikesback.dir\build.make CMakeFiles/cowstrikesback.dir/HeiferGenerator.cpp.i
-.PHONY : HeiferGenerator.cpp.i
+FileCow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cowstrikesback.dir\build.make CMakeFiles/cowstrikesback.dir/FileCow.cpp.i
+.PHONY : FileCow.cpp.i
 
-HeiferGenerator.s: HeiferGenerator.cpp.s
-.PHONY : HeiferGenerator.s
+FileCow.s: FileCow.cpp.s
+.PHONY : FileCow.s
 
 # target to generate assembly for a file
-HeiferGenerator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cowstrikesback.dir\build.make CMakeFiles/cowstrikesback.dir/HeiferGenerator.cpp.s
-.PHONY : HeiferGenerator.cpp.s
+FileCow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cowstrikesback.dir\build.make CMakeFiles/cowstrikesback.dir/FileCow.cpp.s
+.PHONY : FileCow.cpp.s
 
 IceDragon.obj: IceDragon.cpp.obj
 .PHONY : IceDragon.obj
@@ -263,9 +263,9 @@ help:
 	@echo ... Dragon.obj
 	@echo ... Dragon.i
 	@echo ... Dragon.s
-	@echo ... HeiferGenerator.obj
-	@echo ... HeiferGenerator.i
-	@echo ... HeiferGenerator.s
+	@echo ... FileCow.obj
+	@echo ... FileCow.i
+	@echo ... FileCow.s
 	@echo ... IceDragon.obj
 	@echo ... IceDragon.i
 	@echo ... IceDragon.s

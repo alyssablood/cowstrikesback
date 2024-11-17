@@ -10,7 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/lutfi/CLionProjects/cowstrikesback/Cow.cpp" "CMakeFiles/cowstrikesback.dir/Cow.cpp.obj" "gcc" "CMakeFiles/cowstrikesback.dir/Cow.cpp.obj.d"
   "C:/Users/lutfi/CLionProjects/cowstrikesback/Dragon.cpp" "CMakeFiles/cowstrikesback.dir/Dragon.cpp.obj" "gcc" "CMakeFiles/cowstrikesback.dir/Dragon.cpp.obj.d"
-  "C:/Users/lutfi/CLionProjects/cowstrikesback/HeiferGenerator.cpp" "CMakeFiles/cowstrikesback.dir/HeiferGenerator.cpp.obj" "gcc" "CMakeFiles/cowstrikesback.dir/HeiferGenerator.cpp.obj.d"
+  "C:/Users/lutfi/CLionProjects/cowstrikesback/FileCow.cpp" "CMakeFiles/cowstrikesback.dir/FileCow.cpp.obj" "gcc" "CMakeFiles/cowstrikesback.dir/FileCow.cpp.obj.d"
   "C:/Users/lutfi/CLionProjects/cowstrikesback/IceDragon.cpp" "CMakeFiles/cowstrikesback.dir/IceDragon.cpp.obj" "gcc" "CMakeFiles/cowstrikesback.dir/IceDragon.cpp.obj.d"
   "C:/Users/lutfi/CLionProjects/cowstrikesback/cowsay.cpp" "CMakeFiles/cowstrikesback.dir/cowsay.cpp.obj" "gcc" "CMakeFiles/cowstrikesback.dir/cowsay.cpp.obj.d"
   )

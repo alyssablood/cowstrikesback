@@ -82,24 +82,10 @@ CMakeFiles/cowstrikesback.dir/cowsay.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cowstrikesback.dir/cowsay.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\lutfi\CLionProjects\cowstrikesback\cowsay.cpp -o CMakeFiles\cowstrikesback.dir\cowsay.cpp.s
 
-CMakeFiles/cowstrikesback.dir/HeiferGenerator.cpp.obj: CMakeFiles/cowstrikesback.dir/flags.make
-CMakeFiles/cowstrikesback.dir/HeiferGenerator.cpp.obj: C:/Users/lutfi/CLionProjects/cowstrikesback/HeiferGenerator.cpp
-CMakeFiles/cowstrikesback.dir/HeiferGenerator.cpp.obj: CMakeFiles/cowstrikesback.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\lutfi\CLionProjects\cowstrikesback\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cowstrikesback.dir/HeiferGenerator.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cowstrikesback.dir/HeiferGenerator.cpp.obj -MF CMakeFiles\cowstrikesback.dir\HeiferGenerator.cpp.obj.d -o CMakeFiles\cowstrikesback.dir\HeiferGenerator.cpp.obj -c C:\Users\lutfi\CLionProjects\cowstrikesback\HeiferGenerator.cpp
-
-CMakeFiles/cowstrikesback.dir/HeiferGenerator.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cowstrikesback.dir/HeiferGenerator.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\lutfi\CLionProjects\cowstrikesback\HeiferGenerator.cpp > CMakeFiles\cowstrikesback.dir\HeiferGenerator.cpp.i
-
-CMakeFiles/cowstrikesback.dir/HeiferGenerator.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cowstrikesback.dir/HeiferGenerator.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\lutfi\CLionProjects\cowstrikesback\HeiferGenerator.cpp -o CMakeFiles\cowstrikesback.dir\HeiferGenerator.cpp.s
-
 CMakeFiles/cowstrikesback.dir/IceDragon.cpp.obj: CMakeFiles/cowstrikesback.dir/flags.make
 CMakeFiles/cowstrikesback.dir/IceDragon.cpp.obj: C:/Users/lutfi/CLionProjects/cowstrikesback/IceDragon.cpp
 CMakeFiles/cowstrikesback.dir/IceDragon.cpp.obj: CMakeFiles/cowstrikesback.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\lutfi\CLionProjects\cowstrikesback\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cowstrikesback.dir/IceDragon.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\lutfi\CLionProjects\cowstrikesback\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cowstrikesback.dir/IceDragon.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cowstrikesback.dir/IceDragon.cpp.obj -MF CMakeFiles\cowstrikesback.dir\IceDragon.cpp.obj.d -o CMakeFiles\cowstrikesback.dir\IceDragon.cpp.obj -c C:\Users\lutfi\CLionProjects\cowstrikesback\IceDragon.cpp
 
 CMakeFiles/cowstrikesback.dir/IceDragon.cpp.i: cmake_force
@@ -113,7 +99,7 @@ CMakeFiles/cowstrikesback.dir/IceDragon.cpp.s: cmake_force
 CMakeFiles/cowstrikesback.dir/Cow.cpp.obj: CMakeFiles/cowstrikesback.dir/flags.make
 CMakeFiles/cowstrikesback.dir/Cow.cpp.obj: C:/Users/lutfi/CLionProjects/cowstrikesback/Cow.cpp
 CMakeFiles/cowstrikesback.dir/Cow.cpp.obj: CMakeFiles/cowstrikesback.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\lutfi\CLionProjects\cowstrikesback\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cowstrikesback.dir/Cow.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\lutfi\CLionProjects\cowstrikesback\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cowstrikesback.dir/Cow.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cowstrikesback.dir/Cow.cpp.obj -MF CMakeFiles\cowstrikesback.dir\Cow.cpp.obj.d -o CMakeFiles\cowstrikesback.dir\Cow.cpp.obj -c C:\Users\lutfi\CLionProjects\cowstrikesback\Cow.cpp
 
 CMakeFiles/cowstrikesback.dir/Cow.cpp.i: cmake_force
@@ -127,7 +113,7 @@ CMakeFiles/cowstrikesback.dir/Cow.cpp.s: cmake_force
 CMakeFiles/cowstrikesback.dir/Dragon.cpp.obj: CMakeFiles/cowstrikesback.dir/flags.make
 CMakeFiles/cowstrikesback.dir/Dragon.cpp.obj: C:/Users/lutfi/CLionProjects/cowstrikesback/Dragon.cpp
 CMakeFiles/cowstrikesback.dir/Dragon.cpp.obj: CMakeFiles/cowstrikesback.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\lutfi\CLionProjects\cowstrikesback\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cowstrikesback.dir/Dragon.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\lutfi\CLionProjects\cowstrikesback\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cowstrikesback.dir/Dragon.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cowstrikesback.dir/Dragon.cpp.obj -MF CMakeFiles\cowstrikesback.dir\Dragon.cpp.obj.d -o CMakeFiles\cowstrikesback.dir\Dragon.cpp.obj -c C:\Users\lutfi\CLionProjects\cowstrikesback\Dragon.cpp
 
 CMakeFiles/cowstrikesback.dir/Dragon.cpp.i: cmake_force
@@ -138,22 +124,36 @@ CMakeFiles/cowstrikesback.dir/Dragon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cowstrikesback.dir/Dragon.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\lutfi\CLionProjects\cowstrikesback\Dragon.cpp -o CMakeFiles\cowstrikesback.dir\Dragon.cpp.s
 
+CMakeFiles/cowstrikesback.dir/FileCow.cpp.obj: CMakeFiles/cowstrikesback.dir/flags.make
+CMakeFiles/cowstrikesback.dir/FileCow.cpp.obj: C:/Users/lutfi/CLionProjects/cowstrikesback/FileCow.cpp
+CMakeFiles/cowstrikesback.dir/FileCow.cpp.obj: CMakeFiles/cowstrikesback.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\lutfi\CLionProjects\cowstrikesback\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cowstrikesback.dir/FileCow.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cowstrikesback.dir/FileCow.cpp.obj -MF CMakeFiles\cowstrikesback.dir\FileCow.cpp.obj.d -o CMakeFiles\cowstrikesback.dir\FileCow.cpp.obj -c C:\Users\lutfi\CLionProjects\cowstrikesback\FileCow.cpp
+
+CMakeFiles/cowstrikesback.dir/FileCow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cowstrikesback.dir/FileCow.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\lutfi\CLionProjects\cowstrikesback\FileCow.cpp > CMakeFiles\cowstrikesback.dir\FileCow.cpp.i
+
+CMakeFiles/cowstrikesback.dir/FileCow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cowstrikesback.dir/FileCow.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\lutfi\CLionProjects\cowstrikesback\FileCow.cpp -o CMakeFiles\cowstrikesback.dir\FileCow.cpp.s
+
 # Object files for target cowstrikesback
 cowstrikesback_OBJECTS = \
 "CMakeFiles/cowstrikesback.dir/cowsay.cpp.obj" \
-"CMakeFiles/cowstrikesback.dir/HeiferGenerator.cpp.obj" \
 "CMakeFiles/cowstrikesback.dir/IceDragon.cpp.obj" \
 "CMakeFiles/cowstrikesback.dir/Cow.cpp.obj" \
-"CMakeFiles/cowstrikesback.dir/Dragon.cpp.obj"
+"CMakeFiles/cowstrikesback.dir/Dragon.cpp.obj" \
+"CMakeFiles/cowstrikesback.dir/FileCow.cpp.obj"
 
 # External object files for target cowstrikesback
 cowstrikesback_EXTERNAL_OBJECTS =
 
 cowstrikesback.exe: CMakeFiles/cowstrikesback.dir/cowsay.cpp.obj
-cowstrikesback.exe: CMakeFiles/cowstrikesback.dir/HeiferGenerator.cpp.obj
 cowstrikesback.exe: CMakeFiles/cowstrikesback.dir/IceDragon.cpp.obj
 cowstrikesback.exe: CMakeFiles/cowstrikesback.dir/Cow.cpp.obj
 cowstrikesback.exe: CMakeFiles/cowstrikesback.dir/Dragon.cpp.obj
+cowstrikesback.exe: CMakeFiles/cowstrikesback.dir/FileCow.cpp.obj
 cowstrikesback.exe: CMakeFiles/cowstrikesback.dir/build.make
 cowstrikesback.exe: CMakeFiles/cowstrikesback.dir/linkLibs.rsp
 cowstrikesback.exe: CMakeFiles/cowstrikesback.dir/objects1.rsp
